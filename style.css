@@ -8,6 +8,31 @@ body{
     text-align: justify;
 }
 
+nav{
+	display: flex; /* enables the options being in the same line of site logo*/
+	padding: 2% 6%;
+	justify-content: space-between; /* The options are in the conner*/
+	align-items: center; /* Logo and the options are align*/
+}
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+	position: relative;
+}
+
+.nav-links ul li a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 25px;
+}
+
 #title{
     text-align: center;
     color: rgb(255, 255, 255);
