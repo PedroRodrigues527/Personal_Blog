@@ -78,7 +78,31 @@ nav{
     border-radius: 50%;
 }
 
+.projectsBox{
+    text-align: justify;
+    display: inline-flex;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 12px;
+    padding:5px;
+}
 
+#imageProject{
+    width: 70px;
+    height: auto;
+    border-radius: 0%;
+    padding-right: 10px;
+    padding-top: 25%;
+}
+
+.projectDescription{
+    color: #fff;
+}
+
+#projectTitle{
+    font-size: 25px;
+}
+
+/*
 @media(max-width: 1000px){
     
     .infoBox{
@@ -103,4 +127,15 @@ nav{
         height: 150px;
         border-radius: 50%;
     }
-}
+
+    .projectsBox{
+        text-align: left;
+    }
+    
+    #imageProject{
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+    }
+    
+}*/
