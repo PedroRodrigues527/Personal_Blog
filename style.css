@@ -38,7 +38,7 @@ nav{
 	content: '';
 	width: 	0%; /* 0% because we wanto to display the line when the cursor is on top of a option! */
 	height: 2px;
-	background: #e06500;
+	background: #000000;
 	display: block;
 	margin: auto;
 	transition: 0.3s;
@@ -53,79 +53,11 @@ nav{
 	color: #000000;
 }
 
-#title{
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    color: rgb(0, 0, 0);
-    padding-bottom: 10px;
-}
-
-.infoBox{
-    color: rgb(0, 0, 0);
-    display: flex;
-    padding-top: 5px;
-    margin-left: 25%;
-    margin-right: 25%;
-}
-
-
-.textANDphoto{
-    vertical-align: middle;
-    padding-right: 20px;
-}
 
 #image{
     margin-top: auto;
-    /*padding-top: 15px;
-    padding-left: 20px;*/
     width: 150px;
     height: 150px;
     border-radius: 100%;
 }
 
-/*
-#imageProject{
-    width: 70px;
-    height: auto;
-    border-radius: 0%;
-    padding-right: 10px;
-    padding-top: 25%;
-}*/
-
-
-@media(max-width: 1000px){
-    
-    .infoBox{
-        color: rgb(0, 0, 0);
-        display: inline;
-        padding-top: 5px;
-        margin-left: 25%;
-        margin-right: 25%;
-    }
-
-    .textANDphoto{
-        color: rgb(0, 0, 0);
-        text-align: center;
-    }
-    
-    .image{
-        text-align: center;
-    }
-
-    #image{
-        width: 150px;
-        height: 150px;
-        border-radius: 50%;
-    }
-
-    .projectsBox{
-        text-align: left;
-    }
-    
-    #imageProject{
-        width: 80px;
-        height: 80px;
-        border-radius: 50%;
-    }
-    
-}
